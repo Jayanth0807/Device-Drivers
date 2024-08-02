@@ -1,0 +1,1 @@
+savedcmd_/home/jay-19/Desktop/JAY/DD/chardevice/dyna_char.mod := printf '%s\n'   dyna_char.o | awk '!x[$$0]++ { print("/home/jay-19/Desktop/JAY/DD/chardevice/"$$0) }' > /home/jay-19/Desktop/JAY/DD/chardevice/dyna_char.mod

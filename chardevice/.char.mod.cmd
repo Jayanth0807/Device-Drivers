@@ -1,0 +1,1 @@
+savedcmd_/home/jay-19/Desktop/JAY/DD/chardevice/char.mod := printf '%s\n'   char.o | awk '!x[$$0]++ { print("/home/jay-19/Desktop/JAY/DD/chardevice/"$$0) }' > /home/jay-19/Desktop/JAY/DD/chardevice/char.mod
