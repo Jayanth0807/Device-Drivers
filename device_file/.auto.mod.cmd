@@ -1,0 +1,1 @@
+savedcmd_/home/jay-19/Desktop/JAY/DD/device_file/auto.mod := printf '%s\n'   auto.o | awk '!x[$$0]++ { print("/home/jay-19/Desktop/JAY/DD/device_file/"$$0) }' > /home/jay-19/Desktop/JAY/DD/device_file/auto.mod

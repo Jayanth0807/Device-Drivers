@@ -1,0 +1,1 @@
+savedcmd_/home/jay-19/Desktop/JAY/DD/device_file/auto.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/jay-19/Desktop/JAY/DD/device_file/auto.ko /home/jay-19/Desktop/JAY/DD/device_file/auto.o /home/jay-19/Desktop/JAY/DD/device_file/auto.mod.o;  make -f ./arch/x86/Makefile.postlink /home/jay-19/Desktop/JAY/DD/device_file/auto.ko
