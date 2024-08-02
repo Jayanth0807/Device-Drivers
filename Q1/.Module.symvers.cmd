@@ -1,0 +1,1 @@
+savedcmd_/home/jay-19/Desktop/JAY/DD/task/Module.symvers :=  scripts/mod/modpost -m -a      -o /home/jay-19/Desktop/JAY/DD/task/Module.symvers -T /home/jay-19/Desktop/JAY/DD/task/modules.order -i Module.symvers -e 
