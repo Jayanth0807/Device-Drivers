@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/jay-19/Desktop/JAY/DD/auto_u2k/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+INCLUDE_VERMAGIC	a_kspace.mod.c	/^#define INCLUDE_VERMAGIC$/;"	d	file:
+KERNELDIR	Makefile	/^KERNELDIR= \/lib\/modules\/$(shell uname -r)\/build$/;"	m
+PWD	Makefile	/^PWD:=$(shell pwd)$/;"	m
+____versions	a_kspace.mod.c	/^static const struct modversion_info ____versions[]$/;"	v	typeref:typename:const struct modversion_info[]__used __section ("__versions")	file:
+all	Makefile	/^all:$/;"	t
+clean	Makefile	/^clean:$/;"	t
+dev	a_kspace.c	/^dev_t dev=0;$/;"	v	typeref:typename:dev_t
+f_begin	a_kspace.c	/^static int f_begin(void)$/;"	f	typeref:typename:int	file:
+f_cdev	a_kspace.c	/^static struct cdev f_cdev;$/;"	v	typeref:struct:cdev	file:
+f_end	a_kspace.c	/^static void f_end(void)$/;"	f	typeref:typename:void	file:
+f_lseek	a_kspace.c	/^static loff_t f_lseek(struct file *filp, loff_t off, int whence)$/;"	f	typeref:typename:loff_t	file:
+f_open	a_kspace.c	/^static int f_open(struct inode *inode,struct file *filp)$/;"	f	typeref:typename:int	file:
+f_read	a_kspace.c	/^static ssize_t f_read(struct file *filp,char __user *buf,size_t len,loff_t *off)$/;"	f	typeref:typename:ssize_t	file:
+f_release	a_kspace.c	/^static int f_release(struct inode *inode,struct file *filp)$/;"	f	typeref:typename:int	file:
+f_write	a_kspace.c	/^static ssize_t f_write(struct file *filp,const char __user *buf,size_t len,loff_t *off)$/;"	f	typeref:typename:ssize_t	file:
+fops	a_kspace.c	/^static struct file_operations fops=$/;"	v	typeref:struct:file_operations	file:
+k_buff	a_kspace.c	/^char k_buff[1024]="what iam i doing";$/;"	v	typeref:typename:char[1024]
+main	a_uspace.c	/^int main()$/;"	f	typeref:typename:int
+my_class	a_kspace.c	/^static struct class *my_class;$/;"	v	typeref:struct:class *	file:
+obj-m	Makefile	/^obj-m:= a_kspace.o$/;"	m
+s	a_kspace.c	/^#define s /;"	d	file:
+u_buff	a_kspace.c	/^char u_buff[s];$/;"	v	typeref:typename:char[]
