@@ -1,0 +1,1 @@
+savedcmd_/home/jay-19/Desktop/JAY/DD/skeleton/skel.mod := printf '%s\n'   skel.o | awk '!x[$$0]++ { print("/home/jay-19/Desktop/JAY/DD/skeleton/"$$0) }' > /home/jay-19/Desktop/JAY/DD/skeleton/skel.mod
