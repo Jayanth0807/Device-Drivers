@@ -1,0 +1,1 @@
+savedcmd_/shared_data/jayanth/workspace/ldd/custom_drivers/05platform_driver_dt/modules.order := {   echo /shared_data/jayanth/workspace/ldd/custom_drivers/05platform_driver_dt/platform_driver.o; :; } > /shared_data/jayanth/workspace/ldd/custom_drivers/05platform_driver_dt/modules.order

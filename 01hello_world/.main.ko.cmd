@@ -1,0 +1,1 @@
+savedcmd_/shared_data/jayanth/workspace/ldd/custom_drivers/01hello_world/main.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /shared_data/jayanth/workspace/ldd/custom_drivers/01hello_world/main.ko /shared_data/jayanth/workspace/ldd/custom_drivers/01hello_world/main.o /shared_data/jayanth/workspace/ldd/custom_drivers/01hello_world/main.mod.o

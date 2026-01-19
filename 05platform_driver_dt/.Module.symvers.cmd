@@ -1,0 +1,1 @@
+savedcmd_/shared_data/jayanth/workspace/ldd/custom_drivers/05platform_driver_dt/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /shared_data/jayanth/workspace/ldd/custom_drivers/05platform_driver_dt/Module.symvers -T /shared_data/jayanth/workspace/ldd/custom_drivers/05platform_driver_dt/modules.order -i Module.symvers -e 

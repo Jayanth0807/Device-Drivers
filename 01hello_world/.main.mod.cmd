@@ -1,0 +1,1 @@
+savedcmd_/shared_data/jayanth/workspace/ldd/custom_drivers/01hello_world/main.mod := printf '%s\n'   main.o | awk '!x[$$0]++ { print("/shared_data/jayanth/workspace/ldd/custom_drivers/01hello_world/"$$0) }' > /shared_data/jayanth/workspace/ldd/custom_drivers/01hello_world/main.mod

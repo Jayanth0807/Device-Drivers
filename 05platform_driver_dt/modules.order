@@ -1,0 +1,1 @@
+/shared_data/jayanth/workspace/ldd/custom_drivers/05platform_driver_dt/platform_driver.o

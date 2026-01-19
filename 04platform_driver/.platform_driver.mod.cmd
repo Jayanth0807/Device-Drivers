@@ -1,0 +1,1 @@
+savedcmd_/shared_data/jayanth/workspace/ldd/custom_drivers/04platform_driver/platform_driver.mod := printf '%s\n'   platform_driver.o | awk '!x[$$0]++ { print("/shared_data/jayanth/workspace/ldd/custom_drivers/04platform_driver/"$$0) }' > /shared_data/jayanth/workspace/ldd/custom_drivers/04platform_driver/platform_driver.mod
